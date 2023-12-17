@@ -18,3 +18,11 @@ Once installed and running/tested, you just need to clone WISPSI and make it vis
 !path   = Expand_Path('+$IDL_STUFF/lib/wispsi') + ':' + !path
 
 where "IDL_STUFF" is an environment variable, or complete path, to where you store your IDL files. 
+
+To verify that you're picking up the new routines, try this from the SSW IDL prompt: 
+
+PRINT,ROUTINE_FILEPATH("wispr_com_frame",/EITHER)
+
+If you get an empty string returned, you may first need to compile the routine: 
+
+.r wispr_com_frame
