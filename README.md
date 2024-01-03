@@ -1,5 +1,4 @@
-This is a "branched" version of the PSP/WISPR data prep, analysis and visualisation IDL routines. Initially, I'm just putting in routines that I've modified from their originals as a way to keep development separate. At some point, however, I'll add any missing routines to create 
-a complete repo, or, submit these routines to the WISPR team for inclusion with their distro. Since there is currently at least one official SSW port to a GitHub repo, I could also wait for that to become publically available and submit the proposed changes there. 
+This is a "branched" version of the PSP/WISPR data prep, analysis and visualisation IDL routines. Initially, I'm just putting in routines that I've modified from their originals as a way to keep development separate. At some point, however, I'll add any missing routines to create a complete repo, or, submit these routines to the WISPR team for inclusion with their distro. Since there is currently at least one official SSW port to a GitHub repo, I could also wait for that to become publicly available and submit the proposed changes there. 
 
 With that preamble, if you're interested in using any of these routines, you'll first need to install SSW: 
 
